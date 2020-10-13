@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UTF-8">
+	<link rel = "stylesheet" href = "https://diestrocorleone.github.io/quark-css/quark.css">
+	<link rel = "stylesheet" href = "https://fonts.googleapis.com/css?family=Lato">
+	<meta name = "author" content = "Matías Gabriel Pérez, comisión 2016">
+	<title>JavaScript | Actividad Obligatoria Unidad 2</title>
+	<script src = "http://www.cursophp.com.ar/34842212/control.js"></script>
+	<style>
+		body{
+			font-family: Lato;
+		}
+	</style>
+</head>
+<body>
+<div class = "row col-full padded">
+	<div class = "col-full center padded">
+	<form onsubmit = "return false" id = "form">
+		<h4 class = "text-c">Ingreso al Sistema</h4>
+		<label for = "usuario">Usuario:</label>
+		<input type = "text" placeholder = "usu@rio" id = "usuario" class = "float-r"><br><br>
+		<label for = "usuario">Clave:</label>
+		<input type = "password" placeholder = "password" id = "password" class = "float-r"><br><br>
+		<input type = "submit" onclick = "login(event)" value = "Ingresar">
+	</form>
+	</div>
+</div>
+</body>
+</html>
